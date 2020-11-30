@@ -1,0 +1,30 @@
+[package]
+name = "rust-torrent"
+version = "0.1.0"
+authors = ["byusti <50193612+byusti@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1.0.0"
+sha1 = "0.6.0"
+tokio = { version = "0.2", features = ["full"] }
+reqwest = { version = "0.10.6", features = ["blocking"] }
+url = "2.1.1"
+time = "0.2.16"
+bencodex = "0.1.3"
+bencode = "0.1.16"
+rand = "0.7"
+hex = "0.4.2"
+percent-encoding = "2.1.0"
+mockito = "0.26.0"
+rustc-serialize = "0.3.24"
+serde = "1.0"
+serde_json = "1.0.56"
+serde_derive = "1.0.114"
+serde_bencode = "^0.2.1"
+serde_bytes = "0.11.5"
+rust-crypto = "0.2.36"
+bytes = "0.5.6"
+crossbeam-channel = "0.4"
