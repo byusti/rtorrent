@@ -1,10 +1,8 @@
 # rust-torrent
 
-A BitTorrent client for the console. The goals for this project were to teach myself rust in an applied setting, and to learn more about networking, specifically p2p networking.
-
 ## Usage
-An installation of rust is required to compile the client.
-
+An installation of rust is required.
+Works with single file torrents only.
 ```sh
 git clone https://github.com/byusti/rust-torrent.git
 cd rust-torrent
